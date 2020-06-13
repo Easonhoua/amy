@@ -1,0 +1,32 @@
+<view class="understanding">
+  <text class="title">EMYS背后的团队</text>
+  <view class="left">
+    <text class="infotitle">创始人</text>
+  </view>
+  <image class="imginfo" src='../../images/img21.png' mode="widthFix"></image>
+  <text class="tipstxt">图从左到右：Jan Kędzierski 博士、Michał Dziergwa</text>
+  <text class="content">作为有着丰富经验的机器人专家，公司的两位创始人花了多年心血打造和完善EMYS。在2017年，创始人之一的 Jan Kędzierski博士被《麻省理工科技评论》选为35岁以下的欧洲顶尖科技创新者之一。另外，EMYS 的联合创始人 Michał Dziergwa也是波兰华沙的前30名顶尖科技创新者之一。</text>
+  <text class="infotitle">团队</text> 
+  <image class="imginfo" src="../../images/img22.png" mode="widthFix"></image>
+  <text class="tipstxt">图：专心研讨的欧洲教育团队</text>
+  
+  <image class="imginfo" src="../../images/img23.png" mode="widthFix"></image>
+  <text class="tipstxt">图：中国团队</text>
+  <text class="content">EMYS的背后是一群充满创造热情，力争打造最好的教育机器人和课程的工程师、设计师及教育专家。他们在设计、构建和开发多构架机器人控制系统、机器人应用等方面有着丰富的经验。</text>
+  <text class="content">目前，公司雇有多过25名核心成员。他们分别为教育专家、软件研发师、机电工程师、工业设计师、平面设计师、行销营销专家、音响制作人、产品运营及顾问。</text>
+  <text class="title">欧美教育团队</text>
+  <text class="content">作为一款教育机器人，EMYS的内容一定要有强大教育团队的支撑。</text>
+  <text class="content">我们的团队拥有英语教育经验丰富，具有学术权威的教育专家，为宝贝们与EMYS的学习之旅携手铺路！</text>
+  <text class="title">Anna Caudle 女士</text>
+  <image class="imginfo" src="../../images/img24.png" mode="widthFix"></image>
+  <text class="content">Anna是富有教育经验的儿童英语课本和教材作家。具有英式和美式英语教育经验的她曾在美国密苏里大学任教，教授英文写作。现阶段是波兰罗兹大学的高级教授。Anna 参与的英语内容制作包括电视节目《English and Arts》、儿童学校课本《Surprise》和7级英语教材《Leo English》</text>
+
+  <text class="title">Katarzyna Rojkowska女士</text>
+  <image class="imginfo" src="../../images/img25.png" mode="widthFix"></image>
+  <text class="content"> Katarzyna 是著名的心理学家、作者、教育专家，也是两个教育品牌——Leader School 和 Leonardo School的创始人和总监。她是少儿英语教材品牌Leo English教科书的作者之一， 也是许多与儿童发展有关的出版物的作者。许多由她举办的幼儿发展和创意学习方式的工作坊和培训课程都让学校的教学成果硕果累累，因此Katarzyna在教师、家长和学生中的口碑都是极佳的。</text>
+
+
+  <text class="title">Rebecca Dawes 女士</text>
+  <image class="imginfo" src="../../images/img26.png" mode="widthFix"></image>
+  <text class="content"> 毕业于谢菲尔德大学现代语言教学系的Rebecca 在英国和波兰有8年丰富的儿童教育经验。她也是剑桥英语教育CELTA和CELTYL合格证书的持有者。职业生涯中，她参与了许多儿童教学游戏和教材的内容制作，也举办了不少教师培训课程。</text>
+</view>

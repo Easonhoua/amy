@@ -1,0 +1,50 @@
+<view class="PunchView">
+  <view class="LearningContent">
+    <view class="LearningExperience">
+      <text class="bigtxt">今日学习主题（单选）：</text>
+    </view>
+    <view class="contentview">
+      <block wx:for="{{ imagelist }}" wx:key="{{index}}">
+        <view class="{{ index == currentIndex1 ? 'contentviewlist-selected' : 'contentviewlist' }}" bindtap='selstudycon' data-val="{{ item.val}}" data-index="{{index}}">
+          <image src="{{ item.url }}" class="mianImg"></image>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="LearningContent">
+    <view class="LearningExperience">
+      <text class="bigtxt">今日学习任务（单选）：</text>
+    </view>
+    <view class="contentview2">
+      <block wx:for="{{ renwulist }}" wx:key="{{index}}">
+        <view class="{{ index == currentIndex2?'contentviewlist2-selected' : 'contentviewlist2'}}" bindtap='selstudycon2' data-val="{{ item.txt}}" data-index="{{index}}">
+          <image src="{{ item.img }}" class="mianImg2"></image>
+          <text class="txt">{{ item.txt }}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="feedbackview">
+    <view class="LearningExperience">
+      <text class="bigtxt">今日学习心得</text>
+      <text class="smalltxt">（记录学习笔记20字）</text>
+    </view>
+    <form bindsubmit="bindFormSubmit" class="submitform">
+      <textarea class="feedbacktxt" placeholder="{{palhd}}" bindinput="bindTextAreaChange" value="{{textval}}" maxlength='20' name="textarea" />
+      <button form-type="submit" size="default"  class="subBtn">
+        打卡生成学习报告 {{curdeta}} 
+      </button>
+    </form>
+  </view>
+
+
+
+<view class='imagePathBox' hidden="{{maskHidden}}">
+      <image src="{{imagePath}}" class='shengcheng'></image>
+      <button class='baocun' bindtap='baocun'>保存相册，分享到朋友圈</button>
+    </view>
+   <!-- <view hidden="{{maskHidden}}" class="mask"></view>  -->
+  <view class="canvas-box">
+      <canvas  style="width: 375px;height: 667px;position:fixed;top:100000px" canvas-id="mycanvas"/>
+  </view> 
+</view>

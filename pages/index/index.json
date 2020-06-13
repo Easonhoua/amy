@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "学习奖励 Lecture Reward",
+  "usingComponents": {
+    "calendar": "plugin://calendar/calendar"
+  }
+}

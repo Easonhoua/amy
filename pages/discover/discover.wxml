@@ -1,0 +1,56 @@
+
+<view class="myview">
+  <view class="topcontainer">
+    <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+    </view>
+  </view>
+
+  <view class="page__bd">
+    <view class="weui-cells weui-cells_in-small-appmsg">
+        <view  class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='Understanding'>
+          <view class="weui-cell__hd">
+            <image src="../../images/liaojie.png" class="iconimg" />
+          </view>
+          <view class="weui-cell__bd weui-cell_primary">
+            <view class="titleword">了解艾米</view>
+          </view>
+          <image src='../../images/gengduo.png' class="rightIcon"></image>
+        </view> 
+
+        <view  class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='goteam'>
+          <view class="weui-cell__hd">
+            <image src="../../images/caozuo.png" class="iconimg"/>
+          </view>
+          <view class="weui-cell__bd weui-cell_primary">
+            <view class="titleword">团队背景</view>
+          </view>
+          <image src='../../images/gengduo.png' class="rightIcon"></image>
+        </view> 
+
+        <view  class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap="contectkefu">
+          <view class="weui-cell__hd">
+            <image src="../../images/kefu.png" class="iconimg"/>
+          </view>
+          <view class="weui-cell__bd weui-cell_primary">
+            <view class="titleword" >联系客服
+            </view>
+          </view>
+          <image src='../../images/gengduo.png' class="rightIcon"></image>
+        </view> 
+    </view>
+  </view>
+</view>
+
+<view class="modal-mask"  wx:if="{{showModal}}">
+  <view class="modeltips">
+      <view class="tiptitle">感谢您关注艾米英语玩伴！</view>
+      <view class="samesiaze">添加微信客服号： </view> 
+      <view class="samesiaze">emys14775068846</view>
+      <view class="ikonwmbtn" catchtap="preventTouchMove">我知道了</view>
+  </view>
+</view>

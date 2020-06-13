@@ -1,0 +1,52 @@
+<view class="understanding">
+  <text class="title">EMYS 2-6岁小朋友学习纯正英语的机器人伙伴</text>
+  <image class="imginfo" src='../../images/img1.png' mode="widthFix"></image>
+  <text class="title">认识EMYS！</text>
+  <text class="content">EMYS 是一款2至6岁幼儿纯正英语教育机器人。结合科技、互动、不定期重复与英语教育专家研发的有趣内容为一体。通过人脸追踪、逼真的情绪表达和灵敏的反应，吸引孩子们的多种感官。EMYS 的各个游戏与实物教具也会让孩子们感受、聆听及与实物交互进行肢体接触。</text>
+  <image class="imginfo" src="../../images/img2.png" mode="widthFix"></image>
+  <text class="content">宝贝们在2-6岁的年龄层时，无疑是最适合学习语言的。这时他们的大脑就像一块海绵，不断吸收着他们环境中听到、看到和感受到的讯息。EMYS就能让宝贝们在最适合学习语言的时候，给予最合适的‘营养’，帮助他们在短时间内吸收最多的英语单词和表达句。
+  在过去的2年里，EMYS已经入驻波兰、瑞士和西班牙的英语幼教市场。有超过2000名幼儿已经体验了EMYS的教学，活动中也给予了非常积极热烈的反应。
+  </text>
+  <view class="twoimg">
+    <image class="smallimg" src="../../images/img3.png" mode="widthFix"></image>
+    <image class="smallimg" src="../../images/img4.png" mode="widthFix"></image>
+  </view>
+  <image class="imginfo" src="../../images/img5.png" mode="widthFix"></image>
+   <view class="twoimg">
+    <image class="smallimg" src="../../images/img6.png" mode="widthFix"></image>
+    <image class="smallimg" src="../../images/img7.png" mode="widthFix"></image>
+  </view>
+  <text class="title">EMYS的结构</text>
+  <image class="imginfo" src="../../images/img8.png" mode="widthFix"></image>
+  <text class="content">EMYS 的可爱模样、小眼神和自然的反应都能轻而易举地挑起用户的好感，让人不由自主地想要亲近他，与他互动！</text>
+  <text class="title">趣味内容</text>
+  <text class="content">由欧美教育专家研发的教材让学习过程充满乐趣。引导孩子们在最自然的状态中，通过全部的感官、实物交互、积极参与和玩乐中学习英语。EMYS也会向孩子们提出关于周围事物的各种问题，让他们从小就有一个帮助他们接触实用英语的好伙伴。</text>
+  <text class="middlefontsize">现阶段已研发了10套与儿童世界紧密连接的英语教材————</text>
+  <image class="imginfo" src="../../images/img9.png" mode="widthFix"></image>
+  <view class="infomation"> 
+    <text class="infotitle">10套内容包含：</text>
+    <text class="content">160个单词</text>
+    <text class="content">超过300句实用表达句</text>
+    <text class="content">50个教育式游戏</text>
+    <text class="content">40个娱乐式游戏</text>
+    <text class="content">30个复习游戏</text>
+    <text class="content">60部动画故事和影片</text>
+    <text class="content">10首儿歌</text>
+    <text class="content">20个美术活动 ——通过手工制作方式习得英语</text>
+  </view>
+  <text class="content">EMYS是针对低龄孩子开发的内容，游戏和现实的结合让学习英语变得轻而易举！为了满足宝贝们的求知欲，跟上他们迅速的学习步伐，我们的团队也在持续不断地更新和创作新内容。</text>
+  <text class="middlefontsize">课程内容+流程例子</text>
+  <text class="content">课程中有许多和日常生活相关的内容，让宝贝在轻松学习英语内容的同时也吸收日常知识！</text>
+  <image class="imginfo" src="../../images/img10.png" mode="widthFix"></image>
+  <text class="content">游戏开始！</text>
+   <image class="imginfo" src="../../images/img12.png" mode="widthFix"></image>
+    <text class="content">孩子们需要和EMYS一起联手闯关！</text>
+    <image class="imginfo" src="../../images/img14.png" mode="widthFix"></image>
+     <text class="content">闯关后，孩子们就可以玩游戏啦！</text>
+     <image class="imginfo" src="../../images/img16.png" mode="widthFix"></image>
+     <text class="content">一起唱儿歌！</text>
+     <image class="imginfo" src="../../images/img17.png" mode="widthFix"></image>
+     <text class="content">再动起小手来！把游戏和现实合二为一～</text>  
+     <image class="imginfo" src="../../images/img18.png" mode="widthFix"></image>
+
+</view>

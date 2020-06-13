@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="indexbox">
+  <view class="studytop">
+  <text class="toptitle">与艾米一起的学习日历</text>
+  <text class="toptisCH">本月学习打卡记录</text>
+  <text class="toptisEN">Check In Calender</text>
+    <calendar 
+        weeks-type="cn" 
+        cell-size="30" 
+        next="{{false}}" prev="{{false}}" show-more-days="{{true}}"
+        calendar-style="demo4-calendar" 
+        header-style="demo4-header" 
+        board-style="demo4-board" 
+        days-color="{{demo4_days_style}}" 
+        />
+        <image src="../../images/duihuanbtn.png" class="dakabtn" bindtap="godakanext"></image>
+  </view>
+  <view class="studycenter"> 
+    <image src="../../images/tuijian.png" class="centerimg" bindtap="tuijianhaoyou"></image>
+  </view>
+  <view class="studybootom">
+    <image src="../../images/smyshop.png" class="bootomimg" bindtap="goother"></image>
+   </view>
+</view>
+
+<view class="modal-mask"  wx:if="{{showModal}}">
+  <view class="modeltips">
+      <view class="tiptitle">感谢您成功推荐艾米英语玩伴！</view>
+      <view class="samesiaze">两部领取游戏包：</view> 
+      <view class="samesiazeitem">1. 添加微笑客服号 emys14775068846 </view>
+      <view class="samesiazeitem">2. 准备好您和推荐好友的注册手机号码 </view>
+      <view class="huiword">我推荐的好友已购买艾米英语玩伴！</view>
+      <view class="ikonwmbtn" catchtap="preventTouchMove">我知道了</view>
+  </view>
+</view>
+
+<view class="modal-mask"  wx:if="{{showLogin}}"></view>
+<view class="modal-dialog" wx:if="{{showLogin}}">
+  <view class="modal-title">授权确认</view>
+  <view class="modal-content">
+    <text>需要您的授权才能使用我们的功能哦~</text>
+  </view>
+  <view class="modal-footer">
+    <!-- <view class="btn-cancel" bindtap="onCancel" data-status="cancel">取消</view> -->
+    <button class="btn-confirm" open-type="getUserInfo" bindgetuserinfo="getUserInfo" data-status="confirm">确认授权</button>
+  </view>
+</view>
+
+
